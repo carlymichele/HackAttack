@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" type="text/css" href="hackAttack_2.0.css" />
+</head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+</style>
+
+<body>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="choices.html">
+
+    <div class="imgcontainer">
+
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+    </div>
+
+    <div class="container">
+      <label for="uname"><h1>Username</h1></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><h1>Password</h1></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <a href="choices.html"><button>Logint</button></a>
+
+
+      <!--button href="choices.html" name = loginButton type="submit">Login
+        </button-->
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+<!-- Navbar (sit on top) -->
+<!--div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div-->
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <!--span class="w3-tag w3-xlarge">Open from 10am to 12pm</span-->
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">Rest and Relaxation<br></span>
+    <!--span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>WELCOME<br></b></span-->
+    <!--p><a href="#menu" class="w3-button w3-xxlarge w3-black">Login</a-->
+
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xxlarge w3-black" style="width:auto;">Loginf</button>
+ </p>
+  </div>
+</header>
+</body>
+</html>

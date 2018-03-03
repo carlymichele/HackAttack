@@ -12,7 +12,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 .bgimg {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/w3images/pizza.jpg");
+    background-image: url("http://40.media.tumblr.com/27dec2b697839a2e405d0baf2919f774/tumblr_nbnniztSYp1tk87oxo1_1280.jpg");
     min-height: 90%;
 }
 </style>
@@ -34,9 +34,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-white w3-hide-small" style="font-size:100px">thin<br>CRUST PIZZA</span>
-    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>thin<br>CRUST PIZZA</b></span>
-    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">WELCOME<br>YOUR NAME</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>WELCOME<br>YOUR NAME</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">meditation menu</a></p>
   </div>
 </header>
 
@@ -44,16 +44,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
   <div class="w3-content">
 
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">MENU</h1>
     <div class="w3-row w3-center w3-border w3-border-dark-grey">
       <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Pizza</div>
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">REFLECT</div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Salads</div>
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">RELAX</div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Starter</div>
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">JOURNAL</div>
       </a>
     </div>
 
@@ -123,8 +123,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 <!-- About Container -->
 <div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
   <div class="w3-content">
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
-    <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About Us!</h1>
+    <p>The Meditation website was created on March 3, 2018 by HackAttack. This website offers various activities and stats relating to reflection and self-analysis, allowing you to live your best life! Using the "Reflect", "Relax", and "Journal" tabs, find some time to breathe and reflect on your mood. Find your happy place at *insert company name*.</p>
     <p><strong>The Chef?</strong> Mr. Italiano himself<img src="/w3images/chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
     <p>We are proud of our interiors.</p>
     <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
@@ -151,7 +151,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 
 <div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
   <div class="w3-content">
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact Us</h1>
     <p>Find us at some address at some place or call us at 05050515-122330</p>
     <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
     <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>

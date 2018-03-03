@@ -18,7 +18,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action = "rrj.html">
+  <form class="modal-content animate">
 
     <div class="imgcontainer">
 
@@ -28,21 +28,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 
     <div id = "login_div" class="container">
       <label for="userEmail"><h1>Email</h1></label>
-      <input type="text" placeholder="Enter Email" id="email_field" required>
+      <input type="text" placeholder="Enter Email" id="" ="userEmail" required>
 
       <label for="psw"><h1>Password</h1></label>
-      <input type="password" placeholder="Enter Password" id="password_field" required>
-
-      <button onclick="login()">Login to Account</button>
-
-
-
-
-
-
-
-
+      <input type="password" placeholder="Enter Password" id="psw" required>
         
+      <!--a href="choices.html"><button>Login</button></a-->
+      <button onclick="login()">Login to Account</button>
 
       
       <!--label>
@@ -64,7 +56,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 
 
 
-<!--div id="id02" class="modal" action="choices.html">
+<div id="id02" class="modal" action="choices.html">
   
   <form class="modal-content animate">
 
@@ -79,13 +71,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     <input type="text" placeholder="First and Last Name" id="yourName" required>
 
       <label for="userEmail"><h1>Email</h1></label>
-      <input type="text" placeholder="Enter your email" id="email_field" required>
+      <input type="text" placeholder="Enter your email" id="userEmail" required>
 
       <label for="psw"><h1>Password</h1></label>
-      <input type="password" placeholder="Create a Password" id="password_field" required>
+      <input type="password" placeholder="Create a Password" id="psw" required>
 
       <label for="psw"><h1>Confirm your Password</h1></label>
-      <input type="password" placeholder="Confirm your Password" id="password_field" required>
+      <input type="password" placeholder="Confirm your Password" id="psw" required>
 
       <form action="/action_page.php">
         Birthday:
@@ -97,22 +89,26 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   
   </div>
 
-  <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
       </div>  
   </form>
-</div-->
+</div>
 
 
 
 <script>
 // Get the modal
 var modal = document.getElementById('id01');
-//var modal02 = document.getElementById('id02');
+var modal02 = document.getElementById('id02');
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
+    }
+}
+window.onclick = function(event) {
+    if (event.target == modal02) {
+        modal02.style.display = "none";
     }
 }
 
@@ -123,23 +119,17 @@ window.onclick = function(event) {
     <!--span class="w3-tag w3-xlarge">Open from 10am to 12pm</span-->
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-white w3-hide-small" style="font-size:100px">Release<br></span>
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">Rest and Relaxation<br></span>
 
-    
 
     <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-xxlarge w3-black" style="width:auto;">Sign-Up</button>
 
+
+
+
     <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xxlarge w3-black" style="width:auto;">Login</button>
 
-    <!--a href="choices.html"><button>Login</button></a-->
-
-
-
-    <!--button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xxlarge w3-black" style="width:auto;">Login</button-->
-    <!--button onclick="login()">Login to Account</button>
-      <button onclick="setUp()">Set up Account</button-->
-
-    <!--script src="hackAttack.js"></script-->
+    <script src="hackAttack.js"></script>
 
 
   </div>
@@ -161,7 +151,7 @@ window.onclick = function(event) {
     };
     firebase.initializeApp(config);
   </script>
-  <script src="index_edit.js"></script>
+  <script src="index.js"></script>
 
 </body>
 </html>
